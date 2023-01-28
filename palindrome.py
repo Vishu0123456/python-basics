@@ -1,0 +1,85 @@
+# solution of codetantra question
+# a =  int(input("a: "))
+# c=[]
+# d=0
+# for i in range(a):
+#     b = input()
+#     c.append(b)
+#     if b==b[::-1]:
+#         d=d+1
+#
+#
+# print(c)
+# print(d)
+
+# print("Enter your number for checking")
+# number=int(input())
+# temp = number
+# reverse=0
+#
+# while(number>0):
+#     dig=number%10
+#     reverse = reverse*10 + dig
+#     number = number//10
+#
+# if temp==reverse:
+#     print("Number is a palindrome number")
+# else:
+#     print("Number is not palindrome number")
+# print("Enter your input here: ")
+# number = int(input())
+# temp = number
+# reverse = 0
+#
+# while(number>0):
+#     dig=number%10
+#     reverse = reverse*10+dig
+#     number=number//10
+#
+# if temp == reverse :
+#     print("Palindrome number")
+# else:
+#     print("Not Palindrome number")
+
+
+# print("Enter your input here: ")
+# num = int(input())
+# temp = num
+# reverse = 0
+# while(num>0):
+#     dig = num%10
+#     reverse = reverse*10+dig
+#     num = num//10
+#
+# if temp == reverse:
+#     print("pallindrome  number")
+# else:
+#     print("Not palindrome number")
+
+
+# print("Enter your string: ")
+# a = input("Enter string: ")
+# b = a[-1::-1]
+# if a==b:
+#     print("palindrome")
+# else:
+#     print("not palindrome")
+#
+# a=input("")
+# b=a[-1::-1]
+# c=[]
+# if a==b:
+#     print("palindrome")
+# else:
+#     for i in range(a):
+#         d=input()
+#     print("notc a palindrome")
+#     list.append(d)
+# print(c)
+
+n = input("")
+s = n[::-1]
+if s==n:
+    print("yes")
+else:
+    print("no")
